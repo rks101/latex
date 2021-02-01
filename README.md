@@ -9,7 +9,7 @@ LaTeX: [tutorial](https://www.latex-tutorial.com/tutorials/)
 ----
 
 **Note on Bibliography**  
-Make sure .tex (mani latex source), .bib (bibliography entries), and .bst (bibliography style) files are in the same directory. The following sequence can be handy. 
+Make sure .tex (main latex source), .bib (bibliography entries), and .bst (bibliography style) files are in the same directory. The following sequence can be handy. 
 
 ```
 \documentclass{article}
