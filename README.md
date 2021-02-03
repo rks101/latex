@@ -9,12 +9,14 @@ LaTeX: [tutorial](https://www.latex-tutorial.com/tutorials/)
 ----
 
 **Note on Bibliography**  
-Make sure .tex (main latex source), .bib (bibliography entries), and .bst (bibliography style) files are in the same directory. The following sequence can be handy. 
+[Some tips on bibliography](https://faculty.math.illinois.edu/~hildebr/tex/bibliographies0.html) that will definitely save time some day.  
+
+Make sure .tex (main latex source), .bib (bibliography entries), and .bst (bibliography style) files are in the same directory. The following sequence can be handy. Depending on the template used, some of these packages are not required due to .cls file in use or re-implementation of commands/environment.  
 
 ```
-\documentclass{article}
+\documentclass{article}   % or as per journal / conference template 
 
-% premble for packages
+% premble for packages 
 \usepackage{amsmath}      % for dealing with mathematics
 \usepackage{amsthm}       % for dealing with theorem environments
 \usepackage{hyperref}     % for linking the cross references
