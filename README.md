@@ -29,7 +29,7 @@ Make sure .tex (main latex source), .bib (bibliography entries), and .bst (bibli
 % add bibliographystyle required for example somestyle.bst
 \bibliographystyle{somestyle}
 
-\title
+\title{A sequence template}
 
 \begin{abstract}
 Abstract goes here. No citations, table or figure references in abstract. 
