@@ -101,3 +101,9 @@ If you need to change bulleting characters for an un-ordered list, such as * or 
 \end{itemize}
 ```
 ----
+
+**To align bullet/ list to text** 
+
+[Align bullet to text](https://tex.stackexchange.com/questions/195290/align-itemize-bullet-to-text)
+
+----
