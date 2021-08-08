@@ -59,6 +59,26 @@ If cited publications using \cite{someindex} are not appearing under References,
 
 ----
 
+**To add list of tables and figures in report/article** 
+
+After you begin document, use addcontentsline: 
+
+```
+\tableofcontents
+
+\addcontentsline{toc}{chapter}{Contents}
+
+\listoffigures
+
+\addcontentsline{toc}{chapter}{List of Figures}
+
+\listoftables
+
+\addcontentsline{toc}{chapter}{List of Tables} 
+```
+
+----
+
 **To change numbering numerals**  
 
 If you need to change numbering letters or numerals for an ordered list, such as a), b) or i), ii) you can use package enumitem and update option for enumerate.  
