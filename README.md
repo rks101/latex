@@ -144,3 +144,11 @@ To show equation with simplification using another line as we do on paper or bla
 ...
 \end{document}
 ```
+
+---- 
+
+To make a block transparent or set block color using addtobeamertemplate:   
+
+[addtobeamertemplate](https://tex.stackexchange.com/questions/18447/how-to-make-a-block-transparent-for-a-background-image)   
+
+----
