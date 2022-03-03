@@ -127,3 +127,18 @@ If you need to change bulleting characters for an un-ordered list, such as * or 
 [Align bullet to text](https://tex.stackexchange.com/questions/195290/align-itemize-bullet-to-text)
 
 ----
+
+To show equation with simplification using another line as we do on paper or black/white-board:   
+
+```
+	\documentclass{article}
+	\usepackage{amsmath}
+	\begin{document}
+	\begin{equation} \label{eq_area}
+	\begin{split}
+	A & = \frac{\pi r^2}{2} \\
+	 & = \frac{1}{2} \pi r^2
+	\end{split}
+	\end{equation}
+	\end{document}
+```
