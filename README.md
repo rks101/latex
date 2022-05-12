@@ -79,6 +79,39 @@ After you begin document, use addcontentsline:
 
 ----
 
+**To insert emply page with or without numbering**
+
+Insert empty page with numbering:    
+```
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+```
+
+Insert empty page without numbering (or restore counter):   
+```
+\usepackage{afterpage}
+\newcommand\myemptypage{
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{-1}
+    \newpage
+    }
+```
+Later, use myemptypage where neded in source:   
+```
+\myemptypage
+```
+[refer](https://math-linux.com/latex-26/faq/latex-faq/article/latex-how-to-insert-a-blank-or-empty-page-with-or-without-numbering-thispagestyle-newpage-usepackage-afterpage)    
+
+----
+
+
+
+----
+
+
 **To change numbering numerals**  
 
 If you need to change numbering letters or numerals for an ordered list, such as a), b) or i), ii) you can use package enumitem and update option for enumerate.  
