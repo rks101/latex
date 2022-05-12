@@ -103,11 +103,20 @@ Later, use myemptypage where neded in source:
 ```
 \myemptypage
 ```
-[refer](https://math-linux.com/latex-26/faq/latex-faq/article/latex-how-to-insert-a-blank-or-empty-page-with-or-without-numbering-thispagestyle-newpage-usepackage-afterpage)    
+[Refer math-linux.com](https://math-linux.com/latex-26/faq/latex-faq/article/latex-how-to-insert-a-blank-or-empty-page-with-or-without-numbering-thispagestyle-newpage-usepackage-afterpage)    
 
 ----
 
+**To write algorithm**
 
+To write an algorithm, [refer this link] for package and tags.   
+
+To insert a list of algorithms in table of contents of a report or thesis:    
+
+```
+\addcontentsline{toc}{chapter}{List of Algorithms}
+\listofalgorithms
+```
 
 ----
 
