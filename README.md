@@ -51,11 +51,13 @@ Abstract goes here. No citations, table or figure references in abstract.
 
 ----
 
-At times, what you write and what you get in LaTeX output file, defies the logic, and many times experience is surprisingly happy too :)  
+At times, what you write and what you get in LaTeX output file, defies the logic, and many times experience is surprisingly happy too :) You may not have looked into one of .cls, .sty, .bst files.   
 
-It can consume a lot of time, especially while switching between journal formats. Have little more patience.  
+It can consume some time in initial days, especially while switching between journal formats. Have patience. Preserve your own templates.  
 
-If cited publications using \cite{someindex} are not appearing under References, or you are getting an [empty .bbl file](https://tex.stackexchange.com/questions/207664/bibtex-generates-an-empty-bbl-file), rename both .tex and .bib file to all small letters and same name with different extensions. Do not forget to update filename in .tex file using \bibliography{filename}. 
+If cited publications using \cite{someindex} are not appearing under References, or you are getting an [empty .bbl file](https://tex.stackexchange.com/questions/207664/bibtex-generates-an-empty-bbl-file), rename both .tex and .bib file to all small letters and same name with different extensions. Do not forget to update filename in .tex file using \bibliography{filename}.   
+
+If URL/hyperlink text does not show up in bibliography, look for howpublished = "\url{URL_or_HYPERLINK}" and url package. [Refer this](https://tex.stackexchange.com/questions/35977/how-to-add-a-url-to-a-latex-bibtex-file).   
 
 ----
 
