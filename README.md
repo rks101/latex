@@ -79,6 +79,17 @@ After you begin document, use addcontentsline:
 \addcontentsline{toc}{chapter}{List of Tables} 
 ```
 
+Note: To remove ugly square boxes around TOC links (that appear to cut text), you can use coloured links instead, using hypersetup: 
+
+```
+\hypersetup{
+  colorlinks   = true, % Colours links instead of ugly boxes
+  urlcolor     = blue, % Colour for external hyperlinks
+  linkcolor    = blue, % Colour of internal links
+  citecolor    = red   % Colour of citations
+}
+```
+
 ----
 
 **To insert emply page with or without numbering**
