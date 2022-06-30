@@ -79,7 +79,7 @@ After you begin document, use addcontentsline:
 \addcontentsline{toc}{chapter}{List of Tables} 
 ```
 
-Note: To remove ugly square boxes around TOC links (that appear to cut text), you can use coloured links instead, using hypersetup: 
+Note: To remove ugly square boxes around TOC links (that appear to cut text), you can use coloured links instead, using [hypersetup](https://en.wikibooks.org/wiki/LaTeX/Hyperlinks):   
 
 ```
 \hypersetup{
@@ -89,6 +89,7 @@ Note: To remove ugly square boxes around TOC links (that appear to cut text), yo
   citecolor    = red   % Colour of citations
 }
 ```
+In case you wish to remove colors as well, use black color instead of blue or red. Links will be clickable with text as black color.   
 
 ----
 
