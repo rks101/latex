@@ -1,7 +1,7 @@
 # latex
 LaTeX and Beamer related discussions
 
-LaTeX: [tutorial](https://www.latex-tutorial.com/tutorials/)  
+LaTeX: [a LaTeX tutorial for scholar documents](https://www.latex-tutorial.com/tutorials/), [Beamer tutorial for scholar presentations](https://latex-beamer.com/quick-start/)    
 [Overleaf](overleaf.com) - an online LaTeX editor  
 [Latexsheet](http://wch.github.io/latexsheet/latexsheet-a4.pdf)  
 
