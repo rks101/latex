@@ -210,3 +210,21 @@ To make a block transparent or set block color using addtobeamertemplate:
 [addtobeamertemplate](https://tex.stackexchange.com/questions/18447/how-to-make-a-block-transparent-for-a-background-image)   
 
 ----
+
+**Recurring table of contents in Beamer presentation**   
+To create a recurring table of contents before every section, highlight the current section and fade out the rest:   
+
+```
+% Presentation outline
+\begin{frame}{Outline}
+    \tableofcontents[hideallsubsections]
+\end{frame}
+% Current section
+\AtBeginSection[ ]
+{
+\begin{frame}{Outline}
+    \tableofcontents[currentsection]
+\end{frame}
+}
+```
+----
