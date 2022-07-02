@@ -215,11 +215,12 @@ To make a block transparent or set block color using addtobeamertemplate:
 To create a recurring table of contents before every section, highlight the current section and fade out the rest:   
 
 ```
-% Presentation outline
+% Presentation TOC/outline
 \begin{frame}{Outline}
     \tableofcontents[hideallsubsections]
 \end{frame}
-% Current section
+
+% Show current section in highlight 
 \AtBeginSection[ ]
 {
 \begin{frame}{Outline}
