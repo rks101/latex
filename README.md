@@ -229,3 +229,6 @@ To create a recurring table of contents before every section, highlight the curr
 }
 ```
 ----
+
+[Diagrams in latex](https://www.baeldung.com/cs/latex-drawing-graphs) graph using tikz   
+
