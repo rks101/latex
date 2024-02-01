@@ -1,9 +1,16 @@
 # latex
-LaTeX and Beamer related discussions
+LaTeX and Beamer-related discussions
 
 * [latex](#latex)
    * [LaTeX Help](#latex-help)
-   * [Note on Bibliography](#Notes-on-bibliography)
+   * [Notes on Bibliography](#Notes-on-bibliography)
+   * [Add a list of tables and figures](#Add-a-list-of-tables-and-figures)
+   * [Emply page with or without numbering](#Emply-page-with-or-without-numbering)
+   * [Write an algorithm](#Write-an-algorithm)
+   * [To change numbering numerals](#To-change-numbering-numerals)
+   * [To change bulleting characters](#To-change-bulleting-characters)
+   * [Recurring table of contents in Beamer presentation](#Recurring-table-of-contents-in-Beamer-presentation)
+   * [Images in LaTeX](#Images-in-LaTeX)
 
 
 ## LaTeX help:   
@@ -15,7 +22,7 @@ LaTeX and Beamer related discussions
 
 ----
 
-## Note on Bibliography   
+## Notes on Bibliography   
 
 [Some tips on bibliography](https://faculty.math.illinois.edu/~hildebr/tex/bibliographies0.html) that will definitely save time some day.  
 
@@ -61,17 +68,17 @@ Abstract goes here. No citations, table or figure references in abstract.
 
 At times, what you write and what you get in LaTeX output file, defies the logic, and many times experience is surprisingly happy too :) You may not have looked into one of .cls, .sty, .bst files.   
 
-It can consume some time in initial days, especially while switching between journal formats. Have patience. Preserve your own templates.  
+It can consume some time in the initial days, especially while switching between journal formats. Have patience. Preserve your own templates.  
 
-If cited publications using \cite{someindex} are not appearing under References, or you are getting an [empty .bbl file](https://tex.stackexchange.com/questions/207664/bibtex-generates-an-empty-bbl-file), rename both .tex and .bib file to all small letters and same name with different extensions. Do not forget to update filename in .tex file using \bibliography{filename}.   
+If cited publications using \cite{someindex} are not appearing under References, or you are getting an [empty .bbl file](https://tex.stackexchange.com/questions/207664/bibtex-generates-an-empty-bbl-file), rename both .tex and .bib file to all small letters and same name with different extensions. Do not forget to update the filename in .tex file using \bibliography{filename}.   
 
-If URL/hyperlink text does not show up in bibliography, look for howpublished = "\url{URL_or_HYPERLINK}" and url package. [Refer this](https://tex.stackexchange.com/questions/35977/how-to-add-a-url-to-a-latex-bibtex-file).   
+If URL/hyperlink text does not show up in the bibliography, look for howpublished = "\url{URL_or_HYPERLINK}" and url package. [Refer to this](https://tex.stackexchange.com/questions/35977/how-to-add-a-url-to-a-latex-bibtex-file).   
 
 ----
 
-**To add list of tables and figures in report/article** 
+## Add a list of tables and figures    
 
-After you begin document, use addcontentsline: 
+After you begin the document, use addcontentsline markup: 
 
 ```
 \tableofcontents
@@ -101,7 +108,7 @@ In case you wish to remove colors as well, use black color instead of blue or re
 
 ----
 
-**To insert emply page with or without numbering**
+## Emply page with or without numbering    
 
 Insert empty page with numbering:    
 ```
@@ -129,7 +136,7 @@ Later, use myemptypage where neded in source:
 
 ----
 
-**To write algorithm**
+## Write an algorithm   
 
 To write an algorithm, [refer this link] for package and tags.   
 
@@ -143,7 +150,7 @@ To insert a list of algorithms in table of contents of a report or thesis:
 ----
 
 
-**To change numbering numerals**  
+## To change numbering numerals 
 
 If you need to change numbering letters or numerals for an ordered list, such as a), b) or i), ii) you can use package enumitem and update option for enumerate.  
 
@@ -174,7 +181,7 @@ I found it necessary when I wanted to avoid looking repeated numerals after 3rd 
 ```
 ---- 
 
-**To change bulleting characters**  
+## To change bulleting characters    
 
 If you need to change bulleting characters for an un-ordered list, such as * or o, you can use update option for itemize.  
 ```
@@ -217,7 +224,8 @@ To make a block transparent or set block color using addtobeamertemplate:
 
 ----
 
-**Recurring table of contents in Beamer presentation**   
+## Recurring table of contents in Beamer presentation    
+
 To create a recurring table of contents before every section, highlight the current section and fade out the rest:   
 
 ```
