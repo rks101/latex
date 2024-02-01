@@ -9,6 +9,7 @@ LaTeX and Beamer-related discussions
    * [Write an algorithm](#Write-an-algorithm)
    * [To change numbering numerals](#To-change-numbering-numerals)
    * [To change bulleting characters](#To-change-bulleting-characters)
+   * [Display equations](#display-equations)
    * [Recurring table of contents in Beamer presentation](#Recurring-table-of-contents-in-Beamer-presentation)
    * [Images in LaTeX](#Images-in-LaTeX)
 
@@ -199,7 +200,9 @@ If you need to change bulleting characters for an un-ordered list, such as * or 
 
 ----
 
-To show equation with simplification using another line as we do on paper or black/white-board:   
+## Display Equations    
+
+To show the equation with simplification using another line as we do on paper or black/white-board:   
 
 ```
 \usepackage{amsmath}
