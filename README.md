@@ -1,16 +1,22 @@
 # latex
 LaTeX and Beamer related discussions
 
-LaTeX:   
+* [latex](#latex)
+   * [LaTeX Help](#latex-help)
+   * [Note on Bibliography](#Notes-on-bibliography)
+
+
+## LaTeX help:   
+
 [a LaTeX tutorial for scholar documents](https://www.latex-tutorial.com/tutorials/)   
 [Beamer tutorial for scholar presentations](https://latex-beamer.com/quick-start/)    
 [Overleaf](overleaf.com) - an online LaTeX editor  
 [Latexsheet](http://wch.github.io/latexsheet/latexsheet-a4.pdf)  
 
-
 ----
 
-**Note on Bibliography**  
+## Note on Bibliography   
+
 [Some tips on bibliography](https://faculty.math.illinois.edu/~hildebr/tex/bibliographies0.html) that will definitely save time some day.  
 
 Make sure .tex (main latex source), .bib (bibliography entries), and .bst (bibliography style) files are in the same directory. The following sequence can be handy. Depending on the template used, some of these packages are not required due to .cls file in use or re-implementation of commands/environment.  
@@ -229,6 +235,16 @@ To create a recurring table of contents before every section, highlight the curr
 }
 ```
 ----
+
+## Images in LaTeX   
+
+To get alt text in images in LaTeX or converted HTML text:   
+
+```
+\includegraphics[alt={plain-text description of image}]{example-image-a}
+```
+
+---- 
 
 [Diagrams in latex](https://www.baeldung.com/cs/latex-drawing-graphs) graph using tikz   
 
