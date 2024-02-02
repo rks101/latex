@@ -1,5 +1,5 @@
 # latex
-LaTeX and Beamer-related discussions
+LaTeX and Beamer-related notes   
 
 * [latex](#latex)
    * [LaTeX Help](#latex-help)
